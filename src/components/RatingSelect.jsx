@@ -6,8 +6,8 @@ function RatingSelect({ select, selected }) {
   // }, [feedbackEdit])
 
   const handleChange = (e) => {
-    select(+e.currentTarget.value)
-  }
+    select(+e.currentTarget.value);
+  };
 
   // NOTE: simplified with iteration
   return (
@@ -26,7 +26,7 @@ function RatingSelect({ select, selected }) {
         </li>
       ))}
     </ul>
-  )
+  );
 }
 
-export default RatingSelect
+export default RatingSelect;
